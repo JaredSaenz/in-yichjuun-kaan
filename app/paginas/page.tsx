@@ -2,6 +2,11 @@ import { ExternalLink } from "lucide-react"
 import { PageContainer } from "@/components/page-container"
 
 const projects = [
+  { 
+    name: "Procesador de Microcalorimetría", 
+    stack: "Next.js · TypeScript · Plotly.js", 
+    href: "/microcalorimetria" 
+  },
   { name: "Proyecto Lorem", stack: "Next.js · TypeScript" },
   { name: "Proyecto Ipsum", stack: "React · Tailwind CSS" },
   { name: "Proyecto Dolor", stack: "Node.js · PostgreSQL" },
